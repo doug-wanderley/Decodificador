@@ -1,0 +1,120 @@
+div{   
+    width:98vw;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+    padding: 30px;
+}
+.titulo{    
+    display: inline;   
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+    color: navy;
+    font-size: 70px;
+    font-family: Georgia;
+    margin-top: 5px;    
+}
+.areatext{   
+    display: inline-block;
+    float: left;
+    width: 74vw;
+    height: 656px;    
+}
+.input-text{
+    border: none;      
+    width: 1600px;
+    height: 300px;   
+    margin-left: 600px;
+    margin-top: 300px;
+    font-size: 18px;
+    resize: none; 
+    outline: 0;  
+    background-color: #D8DFE8;  
+}
+.result{    
+    position: fixed;
+    margin-left: 1700px;
+    margin-top: 100px;
+    width: 24vw;
+    height: 750px;    
+}
+.mensagem{    
+    border: none;
+    border-radius: 20px;    
+    width: 450px;
+    height: 550px;       
+    margin-left: 50px;   
+    font-size: 18px;   
+    padding-left: 45px; 
+    padding-top: 10px;
+    resize: none;
+    outline: 0;       
+    background-image: url("imgs/boneco.png");  
+    background-repeat: no-repeat;
+    background-position: center;      
+}
+.alert{    
+    display: block;
+    width: 37vw;   
+    text-align: center;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin-left: 8%;
+}
+.encriptar{    
+    float: left;
+    width: 37vw;
+    height: 40px;
+}
+.desencriptar{    
+    float: left;
+    width: 37vw;
+    height: 40px;    
+}
+.btnEncriptar{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid darkblue;    
+    background-color: navy;
+    color: white;
+    height: 30px;
+    width: 300px;
+    margin-left: 60%;
+}
+.btnDesencriptar{
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    background-color: #D8DFE8;
+    color: darkblue;
+    height: 30px;
+    width: 300px;
+    margin-left: 10%;
+}
+.btnCopiar{
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    background-color: #D8DFE8;
+    color: darkblue;
+    height: 30px;
+    width: 300px;
+    margin-left: 23%;    
+}
+.rodape{    
+    width: 98.5vw;
+    height: 30px;   
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    clear: both;     
+}
+body{
+    background-color:#D8DFE8;
+}
